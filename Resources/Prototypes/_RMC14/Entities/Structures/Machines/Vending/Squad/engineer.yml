@@ -93,10 +93,6 @@
         points: 6
       - id: CMMagazineRifleM4SPRExt
         points: 6
-      - id: RMCMagazinePistolM13AP
-        points: 6
-      - id: RMCMagazinePistolM13ExtAP
-        points: 8
       - id: CMMagazineSMGM63AP
         points: 6
       - id: CMMagazineSMGM63Ext
@@ -190,6 +186,8 @@
       entries:
       - id: CMPamphletJTAC
         points: 15
+      - id: CMPamphletMedical # CCM-14
+        points: 15 # CCM-14
     - name: Ключи шифрования # CCM14
       entries:
       - id: CMEncryptionKeyIntel
@@ -344,6 +342,7 @@
     - state: "normal-unshaded"
       map: [ "enum.VendingMachineVisualLayers.BaseUnshaded" ]
   - type: CMAutomatedVendor
+    canManualRestock: true
     access:
     - "CMAccessCombatTechPrep"
     hackable: true

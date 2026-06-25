@@ -7,6 +7,7 @@ cm-distress-signal-majorxenovictory = [color=purple]Все колониальн�
 cm-distress-signal-minorxenovictory = [color=purple]Ксеноморфы захватили десантный корабль[/color], [color=green]но были уничтожены выжившими морпехами![/color]
 rmc-distress-signal-minorxenovictory-timeout = [color=purple]Ксеноморфы захватили десантный корабль[/color], [color=yellow]но он потерпел крушение до того, как морпехи успели спастись![/color]
 cm-distress-signal-alldied = [color=yellow]Взаимное истребление![/color]
+cm-distress-signal-selfdestruct = [color=yellow]Корабль был уничтожен аварийной перегрузкой реактора. И морпехи, и ксенониды были поглощены взрывом. Ни одна сторона не может претендовать на корабль.[/color]
 cm-distress-signal-none = [color=yellow]Безрезультатно![/color]
 cm-distress-signal-marine = { $player }
 rmc-distress-signal-next-map-title = Следующая планетарная карта
@@ -29,3 +30,17 @@ rmc-distress-signal-saving-report = Сохранение оперативног�
 rmc-distress-signal-final-scan = Начало финального сканирования систем через 3 минуты.
 rmc-distress-signal-admin-start-fail = Не удалось запустить сигнал бедствия. Требуется минимум { $minimum } игроков за ксеноморфов, но в наличии только { $candidates }.
 rmc-distress-signal-operation-name = Операция { $name }
+rmc-distress-signal-preflight-complete = Предполётная заправка десантных шаттлов завершена.  
+
+rmc-distress-signal-scuttle-unlocked = Авторизация ARES на аварийное уничтожение активна. Предохранители перегрузки термоядерного реактора инженерного отсека сняты. Квалифицированный инженерный персонал может настроить работающие заправленные реакторы с помощью мультитула.
+rmc-distress-signal-scuttle-first-overload = Обнаружена аварийная перегрузка реактора. ARES начал отслеживание нестабильности ядра двигателя «Давид».
+rmc-distress-signal-scuttle-stage-one = Предупреждение. Тепловая мощность ядра двигателя превышает безопасные рабочие пределы. Перегрузка реактора остаётся активной.
+rmc-distress-signal-scuttle-halfway = Предупреждение. Аварийная последовательность уничтожения достигла предполагаемой середины. Рекомендуется немедленно заглушить реактор, если уничтожение больше не требуется.
+rmc-distress-signal-scuttle-stage-two = Критическое предупреждение. Обнаружен перегрев ядра двигателя. Возможны структурные повреждения и локальные пожары вблизи перегруженных реакторов.
+rmc-distress-signal-scuttle-final = Финальное предупреждение. Отказ защитной оболочки ядра двигателя неизбежен. Аварийная последовательность уничтожения UNS «Давид» необратима.
+rmc-distress-signal-scuttle-deck-creak = Палуба корабля под вами тревожно скрипит.
+rmc-distress-signal-scuttle-runaway-meltdown = ТРЕВОГА: Термоядерные реакторы опасно перегружены. Неуправляемый расплав ядра реактора неизбежен.
+rmc-distress-signal-scuttle-heat-aura = Воздух вокруг ядра двигателя обжигает вашу кожу.
+rmc-distress-signal-scuttle-superheat-aura = Жар ядра двигателя становится палящим!
+
+rmc-xeno-announcement-scuttle-first-overload = Высокие перегружают пылающие сердца металлического улья. Остановите их, пока небесный улей не разорвал сам себя.
